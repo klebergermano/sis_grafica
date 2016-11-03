@@ -1,0 +1,127 @@
+@font-face {
+font-family: 'Montserrat-Light';
+src: url('../fonts/Montserrat-Light.otf');
+
+}
+
+*, *:before, *:after{
+    -ms-box-sizing: border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+}
+html{ height:100%;}
+body{ min-height:100%;  position:relative; font-family: Helvetica }
+.navbar-header button{ }
+.fullscreen{width:100%;}
+#logo{max-width:220px; float:left;}
+header, #header_fixed{ background:#fafafa; width:100%; border-bottom:4px solid #337ab7;}
+
+#header_center{max-width:1170px; margin:0 auto; height:auto;    padding:10px 0px; }
+
+#header_center_fixed{max-width:1170px; margin:0 auto; height:auto;    padding:10px 0px;  }
+.fixar-menu-header-on{display:none; position:fixed;}
+.fixar-menu-header-off{display:none; }
+nav{ margin-top:10px;}
+.slide{ margin-bottom:0px;}
+
+
+#conteudo_home{padding-top:90px;}
+
+
+
+.section_home h3{   }
+
+/***********************
+    Destaque Produtos
+************************/
+#destaque_produtos > .fill{background:#fff; padding:100px 0px 80px 0px; margin-top:-80px;}
+
+#destaque_produtos > .fill h3{color:#333;}
+/**********************
+        Serviços 
+**********************/
+#servicos {  padding:135px 0px 0px 0px; background:#fff; margin-top:0px;  }
+
+#servicos .fill{background:#f8f8f8; color:#333; padding-bottom:0px; margin-top:0px;  }
+
+
+
+#servicos .bg_title_section{width:100%;   margin-bottom:40px; background:#f8f8f8; color:#fff; height:50px; border-top:4px solid #078795; margin-top:-45px;  padding:20px;  }
+#servicos .bg_title_section h3{ color:#fff; margin:0 auto; margin-top:-20px;   position:relative; background:#078795; width:200px; padding:15px 5px 10px 5px; 
+                     border-radius:0px 0px 0px 0px;}
+
+
+#servicos .container{padding-top:60px;}
+
+.b_servicos{ min-height:150px; margin-bottom:80px;}
+.b_servicos .bg_img{ min-height:150px; overflow:hidden; max-width:85px; float:left;  margin-right:10px; }
+.b_servicos img{ width:80px; height:80px;  }
+.b_servicos h4{ font-weight: bold;}
+
+.content_servicos{ background:#119faf !important; box-shadow:0.0em 0.0em 0.1em #333;}
+.content_servicos .modal-content{ background:transparent !important; box-shadow:0.0em 0.0em 0.1em #333;}
+.btn-close-content{font-size:2.6em; text-align: center; padding:10px 0px 10px 0px; cursor:pointer; font-family: Arial;}
+.btn-close-content:hover{color:#fff; background:rgba(255, 255, 255, 0.5); }
+
+
+/*************************
+        Portfólio
+**************************/
+
+#portfolio { background:#f8f8f8; padding-top:135px;    }
+.bg_title_section h3{ font-size:1.4em !important; width:120px !important; padding-top:10px !important; }
+
+#portfolio .fill{background:#f0eff0;  padding:0px 0px 80px 0px; margin-top:0px;}
+#portfolio .bg_title_section{width:100%; background:#f0eff0;  margin-bottom:140px; color:#fff; height:50px; border-top:4px solid #950f58;  margin-top:-45px; padding:20px;  }
+#portfolio .bg_title_section h3{ color:#fff; margin:0 auto; margin-top:-20px;   position:relative; background:#950f58; width:200px; padding:15px 5px 10px 5px; 
+                     border-radius:0px 0px 0px 0px; }
+
+
+#portfolio .container{padding-top:60px; }
+
+
+.b_portfolio{ border:5px solid #f0eff0;  background:#333; overflow:hidden; height:300px;    padding:0px;}
+
+.b_portfolio img{ min-width:100%; }
+
+
+/*************************
+        Sobre
+**************************/
+
+#sobre{  background:#f0eff0; padding-top:139px; }
+#sobre  .fill{background:#f8f8f8; color:#333; padding:0px 0px 180px 0px; margin-top:0px;  }
+
+#sobre .bg_title_section{width:100%; margin-bottom:40px; background:#f8f8f8; color:#fff; height:50px; border-top:4px solid #c6c1a0; margin-top:-47px;  padding:20px;  }
+#sobre .bg_title_section h3{ color:#333; margin:0 auto; margin-top:-20px;   position:relative; background:#c6c1a0; width:200px; padding:15px 5px 10px 5px; 
+                     border-radius:0px 0px 0px 0px;}
+
+/***************************
+           Contato
+****************************/
+#contato {background:#f8f8f8; padding:135px 0px 0px 0px;}
+
+#contato .fill{background:#f0f0f0; padding:0px 0px 90px 0px;}
+
+#contato .bg_title_section{width:100%; background:#f0f0f0; margin-bottom:80px; color:#fff; height:50px; border-top:4px solid #333; margin-top:-45px;  padding:20px;  }
+#contato .bg_title_section h3{ color:#fff; margin:0 auto; margin-top:-20px;   position:relative; background:#333; width:200px; padding:15px 5px 10px 5px; 
+                     border-radius:0px 0px 0px 0px;}
+
+
+#bg_form_home  {background:rgba(0, 0, 0, 0.8) }
+.form-group{ border:0px solid #333;  height:400px; padding:20px 20px 20px 20px; margin-right:10px !important; }
+.form-group div{ padding:12px 0px; overflow:hidden; }
+#bg_form_home  label{ color:#ccc; font-size:1.4em; padding:10px 0px 10px 0px; }
+#info_contato{ padding:15px;}
+#info_contato p{ font-size:1.2em; float:left; padding: 0px 20px 0px 0px ; color:#fff; font-weight:normal;}
+
+#bg_form_home div input{ padding:5px; font-size:1.8em; width:100%; }
+#bg_form_home div select{  float:right; padding:8px;   font-size:1.4em; color:#333; }
+#bg_form_home div textarea{ width:100%; height:190px; padding:5px;   font-size:1.6em }
+#bg_form_home button{ margin:0 auto; color:#123; padding:5px 5px; font-size:1.6em; margin-top:0px; margin:0 auto; display:block; width:30%; margin-bottom:40px;}
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+
+footer{  background:#337ab7;  min-height:50px;  bottom:0px; z-index:9999; margin-top:40px;   }
+#footer_center{max-width:1170px; margin:0 auto; height:auto;    padding:10px 0px;  }
